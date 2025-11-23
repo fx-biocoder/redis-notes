@@ -10,7 +10,7 @@ $ docker run -d --name redis -p 6379:6379 redis:<version>
 $ docker exec -it redis redis-cli
 
 # If you have redis-cli installed locally:
-$ redis-cli -h 127.0.0.1 -p 6739
+$ redis-cli -h 127.0.0.1 -p 6379
 ```
 
 ### What components does Redis have?
